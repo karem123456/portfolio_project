@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif serif Arial;
+}
+:root{
+    --main-color: rgb(0, 59, 251);
+    --link-color: rgb(41, 117, 249);
+}
+/* start text */
+.special-text{
+    color: #ebeced;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+}
+.special-text + p {
+    color: #555555;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+}
+/* end text */
+/* start skills */
+.skills .container{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills-content{
+    display: grid;
+    grid-template-columns: repeat( 2 , minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+.skill{
+    margin-bottom: 40px;
+}
+.skill i{
+    font-size: 30px;
+}
+.skill p{
+    max-width: 400px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555555;
+}
+
+/* end skills */
+/* start projects */
+.projects{
+    margin: 40px 20px;
+    background-color: #ccc;
+    width: calc(100vw - 40px);
+    min-height: 250px;
+    border-radius: 20px;
+}
+/* end projects */

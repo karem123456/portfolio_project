@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif serif Arial;
+    transition: 0.3s;
 }
 :root{
     --main-color: rgb(0, 59, 251);
@@ -21,7 +22,7 @@
     color: #555555;
     font-size: 20px;
     text-align: center;
-    margin-top: -15px;
+    margin-top: -5px;
 }
 /* end text */
 /* start skills */
@@ -53,9 +54,40 @@
 /* start projects */
 .projects{
     margin: 40px 20px;
+    padding: 50px;
     background-color: #ccc;
     width: calc(100vw - 40px);
     min-height: 250px;
     border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat( 3 ,auto);
+    grid-gap: 5px;
+    justify-content: space-between;
+}
+.project{
+    background-color: #eee;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+.project:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+.project img{
+    width: 300px;
+    height: 200px;
+}
+.project .text{
+    margin: 20px;
+    line-height: 2;
+}
+.project h3{
+    font-size:25px;
+    font-weight: bolder;
+}
+.project p{
+    font-size: 15px;
+    letter-spacing: 1.5px;
 }
 /* end projects */

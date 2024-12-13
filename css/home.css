@@ -47,7 +47,7 @@
 .landing{
     background-image: url('../images/home-land.jpg');
     background-size: cover;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 50px);
     width: 100%;
     position: relative;
 }
